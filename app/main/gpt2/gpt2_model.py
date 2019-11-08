@@ -11,7 +11,7 @@ basedir = os.path.dirname(os.path.abspath(__file__))
 
 def interact_model(
     raw_text=None,
-    model_name='117M',
+    model_name='1558M',
     seed=None,
     nsamples=1,
     batch_size=1,
@@ -21,7 +21,7 @@ def interact_model(
 ):
     """
     Interactively run the model
-    :model_name=117M : String, which model to use
+    :model_name=1558M : String, which model to use
     :seed=None : Integer seed for random number generators, fix seed to reproduce
      results
     :nsamples=1 : Number of samples to return total

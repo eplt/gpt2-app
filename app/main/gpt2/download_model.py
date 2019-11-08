@@ -6,7 +6,7 @@ from tqdm import tqdm
 basedir = os.path.dirname(os.path.abspath(__file__))
 
 if len(sys.argv) != 2:
-    print('You must enter the model name as a parameter, e.g.: download_model.py 117M')
+    print('You must enter the model name as a parameter, e.g.: download_model.py 1558M')
     sys.exit(1)
 
 model = sys.argv[1]

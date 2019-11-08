@@ -1,6 +1,6 @@
 # A Flask Web App for Generating Text with [GPT-2](https://github.com/openai/gpt-2)
 
-GPT-2, a very large language model hyped as too dangerous to release its full version, can generate realistic text close to human level based on its input. The authors decided to release only a "less capable" (117M parameter) version. 
+GPT-2, a very large language model hyped as too dangerous to release its full version, can generate realistic text close to human level based on its input. The authors decided to release only a "less capable" (1558M parameter) version. 
 
 Set the controversy aside, let's take a look around and see what the smaller model can do with this app. Submitted an initial text, the app will continue the story, and hopefully, take you on a wild ride. Buckle Up. :P
 

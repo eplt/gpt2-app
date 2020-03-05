@@ -1,20 +1,17 @@
 # A Flask Web App for Generating Text with [GPT-2](https://github.com/openai/gpt-2)
 
-GPT-2, a very large language model hyped as too dangerous to release its full version, can generate realistic text close to human level based on its input. The authors decided to release only a "less capable" (1558M parameter) version. 
-
-Set the controversy aside, let's take a look around and see what the smaller model can do with this app. Submitted an initial text, the app will continue the story, and hopefully, take you on a wild ride. Buckle Up. :P
+GPT-2, a very large language model hyped as too dangerous to release its full version, can generate realistic text close to human level based on its input. I have tweaked this version to run off the full 1558M parameter version. But you will need a big instance to run this on. I have only tested it on [DigitalOcean](https://m.do.co/t/b298d6966c0c) (signup with my referral link, I get some free credits) 16GB Ubuntu 18.04 which cost $80 a month. And it is not fast. 
 
 
 ## Demo
 ![Demo](demo.png)
 
-This is a snapshoot of the app currently deployed on a [Docker](https://www.docker.com/) container hosted on my personal development Ubuntu server on [DigitalOcean](https://www.digitalocean.com/) with limited resources. You can setup and run one wherever Docker is enabled. Also, make sure you do not use the development server in a production environment. 
 
 
 ## Usage
 1. Clone the repository.
     ```
-    $ git clone git@github.com:jingw222/gpt2-app.git
+    $ git clone https://github.com/eplt/gpt2-app.git
     ```
 
 2. Build a new Docker image from [`Dockerfile`](https://github.com/jingw222/gpt2-app/blob/master/Dockerfile).
@@ -30,10 +27,6 @@ This is a snapshoot of the app currently deployed on a [Docker](https://www.dock
 
 4. Navigate to the page where the app is hosted. (e.g. `127.0.0.1:5000` for local deployment, or `ip:5000` for remote servers)
 
-
-## Future work
-
-I may integrate it with some public APIs, like Reddit and Twitter, and do some fun staff. 
 
 
 ## License

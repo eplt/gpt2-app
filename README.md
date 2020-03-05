@@ -14,7 +14,7 @@ GPT-2, a very large language model hyped as too dangerous to release its full ve
     $ git clone https://github.com/eplt/gpt2-app.git
     ```
 
-2. Build a new Docker image from [`Dockerfile`](https://github.com/jingw222/gpt2-app/blob/master/Dockerfile).
+2. Build a new Docker image from [`Dockerfile`](https://github.com/eplt/gpt2-app/blob/master/Dockerfile).
     ```
     $ cd gpt2-app
     $ docker build -t gpt2-app:0.1-py3 --rm .
